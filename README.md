@@ -3,15 +3,25 @@ tools for build smartcontract script for bitcoin cash
 
 
 
-# guess contract example
+## guess contract example
 
 * enable OP_DATASIGVERIFY: [script.cpp][script] 
 
-* add two rpc:[rawtransaction.cpp][rtx]
+* add two rpc:
 
-  buildscript
+  buildscript[rtx]
   
-  signtx
+  signtx[rtx]
+
+
+
+## roadmap
+
+make the rpc buildscript & signtx  to build smartcontract for general porpose.
+
+### add more OP_XXX
+
+### add high level smartcontract language to codegen OP_XXX
 
 
 
