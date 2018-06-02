@@ -1,9 +1,9 @@
-# tools
+# TOOLS
 tools for build smartcontract script for bitcoin cash
 
 
 
-## guess contract example
+## TokenDice contract example
 
 * enable OP_DATASIGVERIFY: [script.cpp][script] 
 
@@ -15,13 +15,13 @@ tools for build smartcontract script for bitcoin cash
 
 
 
-## roadmap
+## TODO
 
 make the rpc buildscript & signtx  to build smartcontract for general porpose.
 
-#### add more OP_XXX
+* more OP_XXX
 
-#### add high level smartcontract language to codegen OP_XXX
+* high level smartcontract language to codegen OP_XXX
 
 
 
