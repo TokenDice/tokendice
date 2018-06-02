@@ -7,8 +7,7 @@ tools for build smartcontract script for bitcoin cash
   [buildscript][rtx]  
   [signtx][rtx]   
 
-## ROADMAP   
-
+## Roadmap
 make the rpc buildscript & signtx  to build smartcontract for general porpose.   
 * add more OP_XXX  
 * add high level smartcontract language to codegen OP_XXX  
