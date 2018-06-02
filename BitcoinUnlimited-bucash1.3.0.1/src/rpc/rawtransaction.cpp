@@ -1007,8 +1007,8 @@ UniValue buildscript(const UniValue &params, bool fHelp)
     std::string addrB = params[2].get_str();
     std::string signB = params[3].get_str();
 	
-    if (addrA.size() != 42 || addrB.size() != 42) 
-	throw runtime_error("invalid address \n" );
+//    if (addrA.size() != 42 || addrB.size() != 42) 
+//	throw runtime_error("invalid address \n" );
 	
     if (signA.size() != 88 || signB.size() != 88) 
 	throw runtime_error("invalid signmessage \n" );
@@ -1063,8 +1063,8 @@ UniValue signtx(const UniValue &params, bool fHelp)
     std::string numB = params[4].get_str();
     std::string signB = params[5].get_str();
 	
-    if (address.size() != 42) 
-	throw runtime_error("invalid address \n" );
+//    if (address.size() != 42) 
+//	throw runtime_error("invalid address \n" );
 	
     if (signA.size() != 88 || signB.size() != 88 ) 
 	throw runtime_error("invalid signmessage \n" );
